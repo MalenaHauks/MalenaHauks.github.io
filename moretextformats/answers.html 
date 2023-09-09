@@ -6,7 +6,7 @@
 5. <ins>(lägga till (stryka under)) och <del>(ta bort (stryka över))
 6. "rtl"
 7. <mark> <strong> <b> <ins> 
-8. Kursiv: <i> <address> <em> 
+8. Kursiv: <i> <address> <em> <dfn>
    Fetstil: <strong> <b>
    Överstruken: <del> <mark>
 9. <sub>(nedsänkt) och <sup>(upphöjd)
