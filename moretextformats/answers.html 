@@ -1,6 +1,6 @@
 1. <p>Folk som känner mig vet att jag älskar att laga mat.</p> <br>
    <p>Jag har skapat den här webbplatsen för att dela några av mina favoritrecept.</p> 
-2. q-element lägger till citattecken medan blockquote sjuter fram texten(flyttar den till höger)
+2. q-element lägger till citattecken medan blockquote skjuter fram texten(flyttar den till höger)
 3. <pre>
 4. <abbr>
 5. <ins>(lägga till (stryka under)) och <del>(ta bort (stryka över))
