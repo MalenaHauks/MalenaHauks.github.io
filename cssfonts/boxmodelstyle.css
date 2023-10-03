@@ -1,0 +1,22 @@
+body
+{
+    background-color: azure;
+}
+div.a
+{
+    margin:40px;
+    background-color: rgb(150, 255, 255);
+}
+div.b
+{
+    margin:20px;
+    padding:20px;
+    background-color: rgb(88, 255, 255);
+}
+div.c
+{
+    margin:30px;
+    padding:30px;
+    border:7px solid #00b7ff;
+    background-color: aqua;
+}
