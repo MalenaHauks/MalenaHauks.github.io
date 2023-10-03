@@ -5,7 +5,7 @@ body
 p
 {
     margin:30px;
-    margin-right:100px;
+    width: 100px;
     padding:5px;
     box-shadow:4px 3px black;
     background-image: linear-gradient(to bottom, #efffee, #a7ffa0);
