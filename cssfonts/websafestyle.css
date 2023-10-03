@@ -1,0 +1,23 @@
+body
+{
+    background-color: rgb(239, 255, 238);
+}
+p
+{
+    margin:30px;
+    padding:2px;
+    box-shadow:3px 2px black;
+    background-image: linear-gradient(to bottom, #efffee, #a7ffa0);
+}
+div.a
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.b
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+div.c
+{
+    font-family: 'Times New Roman', Times, serif;
+}
