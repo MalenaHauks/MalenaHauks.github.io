@@ -4,6 +4,10 @@
         <meta charset="utf-8">
         <title>boxmodel</title>
         <style>
+            body
+            {
+                background-color: azure;
+            }
             div.a
             {
                 margin:40px;
@@ -26,18 +30,20 @@
     </head>
     <body>
         <h1>Box model intro</h1>
-        <p div="a">
+        <div class="a">
+        <p>
             margin 40px
-        </p>
-        <p div="b">
+        </p></div>
+        <div class="b">
+        <p>
             margin 20px<br>
             padding 20px
-        </p>
-        <p div="c">
+        </p></div>
+        <div class="c">
+        <p>
             margin 30px<br>
             padding 30px<br>
             border: 7px solid #00b7ff
-        </p>
-
+        </p></div>
     </body>
 </html>
