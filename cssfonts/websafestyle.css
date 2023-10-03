@@ -5,8 +5,9 @@ body
 p
 {
     margin:30px;
-    padding:2px;
-    box-shadow:3px 2px black;
+    margin-right:100px;
+    padding:5px;
+    box-shadow:4px 3px black;
     background-image: linear-gradient(to bottom, #efffee, #a7ffa0);
 }
 div.a
