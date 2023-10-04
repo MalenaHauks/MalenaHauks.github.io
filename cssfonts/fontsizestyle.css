@@ -1,0 +1,24 @@
+body
+{
+    background-color: rgb(238, 240, 255);
+}
+p
+{
+    margin:30px;
+    width: 350px;
+    padding:5px;
+    box-shadow:4px 3px black;
+    background-image: linear-gradient(to bottom, #eeefff, #6a5fff);
+}
+div.a
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+span.big
+{
+    font-size: large;
+}
+span.biger
+{
+    font-size: larger;
+}
