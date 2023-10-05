@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Noto+Serif+NP+Hmong&family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Pixelify+Sans&family=Space+Grotesk&display=swap');
 body
 {
     background-color: rgb(255, 212, 192);
@@ -17,7 +17,7 @@ div.a
 }
 div.b
 {
-    font-family: 'Noto Serif NP Hmong', serif;
+    font-family: 'Space Grotesk', sans-serif;
 }
 div.c
 {
