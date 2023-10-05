@@ -14,9 +14,14 @@ p
 {
     font-family:myRoboto;
     src: url(Roboto-Regular.ttf);
-}
-@font-face
-{
-    font-family:myRoboto;
+    font-family:myMickey;
     src: url(MickeyMerryChristmas.ttf);
+}
+div.a
+{
+    font-family:myRoboto,sans-serif;
+}
+div.b
+{
+    font-family:myMickey,sans-serif;
 }
