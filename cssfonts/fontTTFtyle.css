@@ -10,11 +10,13 @@ p
     box-shadow:4px 3px black;
     background-image: linear-gradient(to bottom, #b7fdae, #6fff43);
 }
-div.a
+@font-face
 {
-    font-family: ;
+    font-family:myRoboto;
+    src: url(Roboto-Regular.ttf);
 }
-div.b
+@font-face
 {
-    font-family: ;
+    font-family:myRoboto;
+    src: url(MickeyMerryChristmas.ttf);
 }
