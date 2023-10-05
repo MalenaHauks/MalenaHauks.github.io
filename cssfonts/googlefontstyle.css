@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Noto+Serif+NP+Hmong&family=Pixelify+Sans&display=swap');
 body
 {
-    background-color: rgb(255, 246, 238);
+    background-color: rgb(255, 212, 192);
 }
 p
 {
@@ -9,7 +9,7 @@ p
     width: 350px;
     padding:5px;
     box-shadow:4px 3px black;
-    background-image: linear-gradient(to bottom, #fff8ee, #ff9843);
+    background-image: linear-gradient(to bottom, #fdcfae, #ff7f43);
 }
 div.a
 {
