@@ -1,0 +1,20 @@
+body
+{
+    background-color: rgb(207, 255, 192);
+}
+p
+{
+    margin:30px;
+    width: 350px;
+    padding:5px;
+    box-shadow:4px 3px black;
+    background-image: linear-gradient(to bottom, #b7fdae, #6fff43);
+}
+div.a
+{
+    font-family: ;
+}
+div.b
+{
+    font-family: ;
+}
