@@ -20,11 +20,11 @@ p
     font-family:myMickey;
     src: url(Mickeys\ Merry\ Christmas.ttf);
 }
-div.a
+p.a
 {
     font-family:myRoboto,sans-serif;
 }
-div.b
+p.b
 {
     font-family:myMickey,sans-serif;
 }
