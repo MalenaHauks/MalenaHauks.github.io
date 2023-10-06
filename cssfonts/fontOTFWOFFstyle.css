@@ -1,0 +1,27 @@
+body
+{
+    background-color: rgb(207, 255, 192);
+}
+p
+{
+    margin:30px;
+    width: 350px;
+    padding:5px;
+    box-shadow:4px 3px black;
+    background-image: linear-gradient(to bottom, #c7ffc0, #6fff43);
+}
+@font-face
+{
+    font-family:myRistretto;
+    src: url();
+    font-family:myMayestica;
+    src: url();
+}
+div.a
+{
+    font-family:myRistretto;
+}
+div.b
+{
+    font-family:myMayestica;
+}
