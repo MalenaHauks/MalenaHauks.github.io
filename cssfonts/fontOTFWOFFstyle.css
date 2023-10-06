@@ -13,9 +13,9 @@ p
 @font-face
 {
     font-family:myRistretto;
-    src: url();
+    src: url(ristretto.woff);
     font-family:myMayestica;
-    src: url();
+    src: url(Mayestica.otf);
 }
 div.a
 {
