@@ -27,16 +27,16 @@ span.q
 {
     color: aquamarine;
     text-shadow: 1px 1px 2px black, 0 0 20px blue, 0 0 7px darkblue;
-    font-size: 4em;
+    font-size: 3em;
 }
 span.w
 {
     text-shadow: 4px 4px 4px #666666;
-    font-size: 4em;
+    font-size: 3em;
 }
 span.e
 {
     color: coral;
     text-shadow: 0 0 10px #00ff00;
-    font-size: 4em;
+    font-size: 3em;
 }
