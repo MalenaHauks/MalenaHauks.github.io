@@ -1,0 +1,28 @@
+body
+{
+    background-color:#DEFF9C;
+}
+a
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    margin: 30px
+}
+a:link
+{
+    color: #aaff00;
+}
+a:visited
+{
+    color: green;
+}
+a:focus
+{
+    border-bottom: 1px solid darkblue;
+    background-color: rgb(152, 255, 250);
+}
+a:hover
+{
+    box-shadow: 5px 5px 5px rgb(168, 168, 168);
+    background-color: rgb(77, 255, 101);
+}
