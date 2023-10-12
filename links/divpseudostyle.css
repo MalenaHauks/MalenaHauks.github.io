@@ -4,8 +4,8 @@ body
 }
 div
 {
-    height:400px;
-    width:700px;
+    height:90px;
+    width:150px;
     margin:10px;
     border-color: white;
     border-radius:10px;
@@ -13,6 +13,7 @@ div
     text-align:center;
     padding:40px;
     color: white;
+    font-size: large;
 }
 div:focus
 {
@@ -24,5 +25,6 @@ div:hover
 }
 h1
 {
+    margin-left: 40px;
     color: red;
 }
