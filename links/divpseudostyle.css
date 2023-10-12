@@ -12,7 +12,7 @@ div.a
     display:block;
     text-align:center;
     padding-top:1em;
-    background-color:rgb(0, 0, 0);
+    text-decoration: white;
 }
 div:focus
 {
@@ -21,4 +21,8 @@ div:focus
 div:hover
 {
     text-decoration: blue;
+}
+h1
+{
+    text-decoration: red;
 }
