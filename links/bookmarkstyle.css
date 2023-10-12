@@ -1,4 +1,10 @@
 body
 {
     background-color:#DEFF9C;
+    width: 300px;
+    padding: 50px;
+}
+a
+{
+    display: block;
 }
