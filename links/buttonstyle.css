@@ -5,12 +5,28 @@ body
 a
 {
     height:40px;
-    width:100px;
+    width:150px;
+    margin:20px;
     display:block;
     text-align:center;
     padding-top:1em;
     background-color:rgb(190, 208, 224);
+}
+a.a
+{
     border-left: ridge 2px red;
+}
+a.b
+{
+    border-left: ridge 2px yellow;
+}
+a.c
+{
+    border-left: ridge 2px green;
+}
+a.d
+{
+    border-left: ridge 2px blue;
 }
 a:hover
 {
