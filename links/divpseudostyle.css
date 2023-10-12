@@ -1,0 +1,30 @@
+body
+{
+    background-color:rgb(0, 0, 0);
+}
+div
+{
+    height:40px;
+    width:150px;
+    margin:20px;
+    display:block;
+    text-align:center;
+    padding-top:1em;
+    background-color:rgb(0, 0, 0);
+}
+div.a
+{
+    border-left: ridge 4px red;
+}
+div.b
+{
+    border-left: ridge 4px yellow;
+}
+div.c
+{
+    border-left: ridge 4px green;
+}
+a:hover
+{
+    background-color: rgb(116, 116, 116);
+}

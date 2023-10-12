@@ -14,19 +14,19 @@ a
 }
 a.a
 {
-    border-left: ridge 2px red;
+    border-left: ridge 4px red;
 }
 a.b
 {
-    border-left: ridge 2px yellow;
+    border-left: ridge 4px yellow;
 }
 a.c
 {
-    border-left: ridge 2px green;
+    border-left: ridge 4px green;
 }
 a.d
 {
-    border-left: ridge 2px blue;
+    border-left: ridge 4px blue;
 }
 a:hover
 {
