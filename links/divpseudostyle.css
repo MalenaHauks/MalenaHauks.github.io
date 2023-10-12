@@ -8,6 +8,7 @@ div
     width:700px;
     margin:50px;
     border:10px white;
+    border-radius:10px;
     display:block;
     text-align:center;
     padding-top:1em;
