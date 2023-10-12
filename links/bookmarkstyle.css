@@ -9,8 +9,8 @@ a
 {
     display: block;
 }
-div.q
+span
 {
-    font-size: 1.5em;
-    font-weight:150px;
+    font-weight: bold;
+    font-size: large;
 }
