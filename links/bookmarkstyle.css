@@ -8,7 +8,7 @@ body
 a
 {
     display: block;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 span
 {
@@ -19,5 +19,5 @@ span
 h1
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 80px;
+    margin-left: 60px;
 }
