@@ -5,13 +5,22 @@ body
 }
 a.link
 {
-    margin-left: 50px;
+    margin-left: 20px;
+    margin: 30px;
 }
 a:hover
 {
-    color: blue;
+    font-weight: 200;
 }
 a:visited
 {
     color: blueviolet;
+}
+h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
