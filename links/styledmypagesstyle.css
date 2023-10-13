@@ -19,8 +19,9 @@ div
 {
     width: 150px;
     height: 300px;
+    margin: 20px;
     background-color: rgb(119, 0, 255);
-    box-shadow: 2px 3px rgba(128, 128, 128, 0.411);
+    box-shadow: 2px 3px rgba(83, 83, 83, 0.774);
     display: block;
     float: left;
 }
