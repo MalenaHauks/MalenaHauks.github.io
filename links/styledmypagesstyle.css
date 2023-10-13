@@ -22,5 +22,6 @@ div
     background-color: rgb(119, 0, 255);
     box-shadow: 2px 3px rgba(128, 128, 128, 0.411);
     text-align: center;
-    display: inline-block;
+    display: block;
+    float: left;
 }
