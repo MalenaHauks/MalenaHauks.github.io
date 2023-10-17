@@ -17,6 +17,7 @@ div
 }
 div:focus
 {
+    color: white;
     background-color: blue;
     border: 5px solid white;
 }

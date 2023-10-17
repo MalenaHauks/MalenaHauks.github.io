@@ -6,15 +6,17 @@ body
 a
 {
     margin-left: 50px;
-    color: rgb(255, 200, 98);
+    color: rgb(255, 175, 28);
     text-align: center;
     border-radius: 50px;
-    border: 2px solid rgb(255, 200, 98);
+    border: 2px solid rgb(255, 175, 28);
+    padding: 10px;
+    width: 120px;
 }
 a:hover
 {
     background-color: black;
-    border: 2px solid rgb(255, 200, 98);
+    border: 2px solid rgb(255, 175, 28);
 }
 a:visited
 {
@@ -25,7 +27,7 @@ div
     width: 150px;
     height: 300px;
     margin: 20px;
-    background-color: rgb(255, 247, 179);
+    background-color: rgb(255, 233, 135);
     box-shadow: 5px 5px rgba(83, 83, 83, 0.774);
     display: block;
     float: left;
