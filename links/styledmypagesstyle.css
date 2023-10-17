@@ -6,14 +6,14 @@ body
 a
 {
     color: rgb(214, 147, 23);
+    margin-bottom: 10px;
+    margin-left: 14px;
+    margin-right: 14px;
     text-align: center;
     border-radius: 50px;
     border: 2px solid rgb(214, 147, 23);
     padding: 10px;
     width: 120px;
-    margin-bottom: 10px;
-    margin-left: 14px;
-    margin-right: 14px;
 }
 a:hover
 {
