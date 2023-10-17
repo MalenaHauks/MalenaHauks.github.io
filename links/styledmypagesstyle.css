@@ -6,6 +6,7 @@ body
 a
 {
     color: rgb(214, 147, 23);
+    display: block;
     margin-bottom: 10px;
     margin-left: 14px;
     margin-right: 14px;
