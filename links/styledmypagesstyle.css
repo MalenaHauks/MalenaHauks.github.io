@@ -1,15 +1,19 @@
 body
 {
-    background-color:#f7eeff;
+    background-color:#fffcee;
     margin-left: 30px;
 }
 a
 {
     margin-left: 50px;
+    text-align: center;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgb(255, 233, 31);
 }
 a:hover
 {
-    color: rgb(0, 247, 255);
+    background-color: black;
 }
 a:visited
 {
@@ -20,8 +24,8 @@ div
     width: 150px;
     height: 300px;
     margin: 20px;
-    background-color: rgb(119, 0, 255);
-    box-shadow: 2px 3px rgba(83, 83, 83, 0.774);
+    background-color: rgb(255, 245, 159);
+    box-shadow: 5px 5px rgba(83, 83, 83, 0.774);
     display: block;
     float: left;
 }
