@@ -7,8 +7,7 @@ div
     height: 90px;
     width: 150px;
     margin: 10px;
-    border-width: 10px;
-    border-color: white;
+    border: 5px solid white;
     border-radius: 10px;
     display: block;
     text-align: center;
@@ -20,10 +19,12 @@ div
 div:focus
 {
     background-color: blue;
+    border: 5px solid white;
 }
 div:hover
 {
     color: blue;
+    border: 3px solid rgb(194, 255, 255);
 }
 h1
 {
