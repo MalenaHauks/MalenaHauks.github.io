@@ -1,0 +1,22 @@
+body
+{
+    background-color: rgb(255, 240, 244);
+}
+div
+{
+    border: 2px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px;
+}
+div.a
+{
+    background-color: red;
+}
+div.b
+{
+    background-color: rgb(255, 0, 106);
+}
+div.c
+{
+    background-color: rgb(255, 0, 234);
+}
