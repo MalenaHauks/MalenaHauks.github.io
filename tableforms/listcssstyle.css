@@ -1,0 +1,12 @@
+body
+{
+    background-color: lightcyan;
+}
+table
+{
+    border: 2px solid rgb(0, 110, 255);
+}
+td
+{
+    margin-left: 50px;
+}

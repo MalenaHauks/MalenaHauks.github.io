@@ -1,0 +1,27 @@
+body
+{
+    background-color: lightcyan;
+    margin-left: 30px;
+}
+thead
+{
+    color: red;
+}
+table
+{
+    border-collapse: collapse;
+    border: 2px solid blue;
+    width: 100px;
+    box-shadow: 2px 2px 2px;
+}
+td,th
+{
+    padding: 5px 2px;
+    border: 2px solid green;
+    height: 5px;
+    text-align: center;
+}
+tfoot
+{
+    color: blue;
+}
