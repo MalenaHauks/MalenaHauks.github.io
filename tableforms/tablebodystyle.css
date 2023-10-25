@@ -15,14 +15,14 @@ table
 {
     border-collapse: collapse;
     border: 2px solid blue;
-    width: 100px;
+    width: 200px;
     box-shadow: 2px 2px 2px;
 }
 td,th
 {
-    padding: 5px 2px;
+    padding: 10px 2px;
     border: 2px solid green;
-    height: 5px;
+    height: 10px;
     text-align: center;
 }
 tfoot
