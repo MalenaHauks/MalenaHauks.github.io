@@ -3,22 +3,27 @@ body
     background-color: lightcyan;
     margin-left: 30px;
 }
-thead
+caption
+{
+    text-align: center;
+    font-family: italic;
+}
+th
 {
     color: red;
 }
 table
 {
     border-collapse: collapse;
-    border: 2px solid blue;
-    width: 100px;
-    box-shadow: 2px 2px 2px;
+    border: 3px solid blue;
+    width: 380px;
+    box-shadow: 5px 5px 2px;
 }
 td,th
 {
-    padding: 5px 2px;
+    padding: 10px 2px;
     border: 2px solid green;
-    height: 5px;
+    height: 13px;
     text-align: center;
 }
 tfoot
