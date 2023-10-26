@@ -7,7 +7,6 @@ ol,ul,dl
 {
     border: 2px solid rgb(0, 110, 255);
     width: 400px;
-    padding: 30px;
 }
 dl
 {
@@ -25,4 +24,8 @@ ol.b
 ul
 {
     list-style-type: square;
+}
+h1
+{
+    margin-left: 20px;
 }
