@@ -22,17 +22,18 @@ table
     border: 3px solid blue;
     width: 380px;
     box-shadow: 5px 5px 2px;
+    margin: 20px;
 }
 td,th
 {
     padding: 10px 2px;
     border: 2px solid green;
-    height: 13px;
+    height: 18px;
     text-align: center;
 }
 td.b
 {
-    color: blueviolet;
+    color: blue;
 }
 tfoot
 {
