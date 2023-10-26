@@ -2,6 +2,10 @@ body
 {
     background-color: lightgreen;
 }
+form
+{
+    display: block;
+}
 p
 {
     display: inline-block;
@@ -9,4 +13,10 @@ p
 label
 {
     color: blueviolet;
+}
+div
+{
+    border: 2px solid black;
+    width: 30px;
+    padding: 3px;
 }
