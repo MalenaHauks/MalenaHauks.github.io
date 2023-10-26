@@ -8,7 +8,7 @@ caption
     text-align: center;
     font-style: italic;
 }
-thead
+th.a
 {
     color: blueviolet;
 }
@@ -29,6 +29,10 @@ td,th
     border: 2px solid green;
     height: 13px;
     text-align: center;
+}
+td.b
+{
+    color: blueviolet;
 }
 tfoot
 {
