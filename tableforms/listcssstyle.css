@@ -10,3 +10,8 @@ td
 {
     margin-left: 50px;
 }
+table.a
+{
+    background-color: white;
+    color: blueviolet;
+}
