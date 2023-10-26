@@ -11,6 +11,7 @@ caption
 th.a
 {
     color: blueviolet;
+    border: 2.1px solid rgb(172, 255, 172);
 }
 th
 {
@@ -38,4 +39,5 @@ td.b
 tfoot
 {
     color: rgb(255, 217, 0);
+    border: 2.1px solid rgb(172, 255, 172);
 }
