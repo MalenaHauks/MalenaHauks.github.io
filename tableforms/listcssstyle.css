@@ -3,7 +3,7 @@ body
     background-color: lightcyan;
     margin-left: 30px;
 }
-ol,ul
+ol,ul,dl
 {
     border: 2px solid rgb(0, 110, 255);
     width: 400px;
@@ -16,7 +16,7 @@ dl
 }
 ol.a
 {
-    list-style-type: lower-roman;
+    list-style-type: upper-roman;
 }
 ol.b
 {
