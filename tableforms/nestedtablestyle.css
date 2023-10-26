@@ -6,7 +6,11 @@ body
 caption
 {
     text-align: center;
-    font-family: italic;
+    font-style: italic;
+}
+th.a
+{
+    color: blueviolet;
 }
 th
 {
