@@ -12,15 +12,23 @@ label
     color: blue;
     font-style: bold;
 }
+input
+{
+    border: 1px solid grey;
+}
 input.a 
 {
     margin-left: 60px;
+    border-top: 2px grey;
+    border-left: 2px gray;
 }
 input.b
 {
     margin-left: 10px;
     width: 8em;
     padding: 3px;
+    border-bottom: 2px gray;
+    border-right: 2px gray;
 }
 h1
 {
