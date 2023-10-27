@@ -11,6 +11,7 @@ caption
 th.a
 {
     color: blueviolet;
+    border: 1.9px solid rgb(148, 255, 148);
 }
 th
 {
