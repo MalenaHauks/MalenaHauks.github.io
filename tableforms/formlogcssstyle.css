@@ -11,12 +11,6 @@ label
 {
     color: blue;
 }
-div
-{
-    border: 2px solid black;
-    width: 50px;
-    padding: 3px;
-}
 input.a 
 {
     margin-left: 60px;
@@ -24,6 +18,8 @@ input.a
 input.b
 {
     margin-left: 10px;
+    width: 50px;
+    padding: 3px;
 }
 h1
 {
