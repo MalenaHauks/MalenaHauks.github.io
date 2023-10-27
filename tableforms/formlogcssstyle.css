@@ -14,22 +14,22 @@ label
 }
 input
 {
-    border: 1px solid grey;
+    border: 2px solid grey;
     background-color: rgb(247, 255, 255);
 }
 input.a 
 {
     margin-left: 60px;
-    border-bottom: 2px gray;
-    border-right: 2px gray;
+    border-bottom: 3px gray;
+    border-right: 3px gray;
 }
 input.b
 {
     margin-left: 10px;
     width: 8em;
     padding: 3px;
-    border-top: 2px grey;
-    border-left: 2px gray;
+    border-top: 3px grey;
+    border-left: 3px gray;
 }
 h1
 {
