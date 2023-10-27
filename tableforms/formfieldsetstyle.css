@@ -8,4 +8,5 @@ div
     border: 2px solid blueviolet;
     padding: 10px;
     width: 500px;
+    display: block;
 }
