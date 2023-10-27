@@ -2,10 +2,6 @@ body
 {
     background-color: rgb(194, 255, 194);
 }
-form
-{
-    display: block;
-}
 p
 {
     display: block;
@@ -17,6 +13,14 @@ label
 div
 {
     border: 2px solid black;
-    width: 30px;
+    width: 50px;
     padding: 3px;
+}
+input.a 
+{
+    margin-left: 60px;
+}
+input.b
+{
+    margin-left: 10px;
 }
