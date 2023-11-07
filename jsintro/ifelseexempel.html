@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="UTF-8">
+	<title>Questions</title>
+    <script type="text/javascript">
+        function question(){
+            if (confirm("Är du en fotbollsspelare?\n OK = Ja!; Cancel = Nej!"))
+            {
+                alert("Det gäller mig.");
+            }
+            else
+            {
+                alert(" Nej, det gäller inte mig.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="button" value="Ask" onclick="question">
+    </form>
+</body>
+</html>
