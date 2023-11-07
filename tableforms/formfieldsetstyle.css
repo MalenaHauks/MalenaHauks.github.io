@@ -24,8 +24,7 @@ label
 }
 input.b
 {
-    margin: 60px;
-    border: 1px solid grey;
+    border: 2px solid grey;
     border-bottom: 3px gray;
     border-right: 3px gray;
 }
