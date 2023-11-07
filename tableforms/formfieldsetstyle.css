@@ -24,10 +24,11 @@ label
 }
 input
 {
-    margin-right: 1000px;
+    margin-right: 930px;
 }
 input.b
 {
+    margin-right: 850px;
     border: 2px solid grey;
     border-bottom: 3px gray;
     border-right: 3px gray;
