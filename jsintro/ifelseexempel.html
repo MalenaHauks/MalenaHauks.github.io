@@ -3,10 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Questions</title>
-    <script>
+    <script type="text/javascript">
         function question()
         {
-            if (confirm("Är du en fotbollsspelare?\n OK = Ja!; Cancel = Nej!"))
+            if(confirm("Är du en fotbollsspelare?\n OK = Ja!; Cancel = Nej!"))
             {
                 alert("Det gäller mig.");
             }
@@ -19,7 +19,7 @@
 </head>
 <body>
     <form>
-        <input type="button" value="Ask" onclick="question">
+        <input type="button" value="Ask" onclick="question()">
     </form>
 </body>
 </html>
