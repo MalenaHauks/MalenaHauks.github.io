@@ -8,7 +8,8 @@
     <body>
         <h1>Form with fieldsets</h1>
         <form>
-            <div>
+            <fieldset>
+                <legend>Login</legend>
                 <p>
                 <label for="Username*">Username:*</label>
                 <input type="text" class="b" required>
@@ -17,8 +18,11 @@
                 <label for="Password*">Password:*</label>
                 <input type="text" class="b" required>
                 </p>
-            </div>
-            <div>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Gender</legend>
                 <p>
                 <label for="Male">Male</label>
                 <input type="radio">
@@ -27,8 +31,11 @@
                 <label for="Female">Female</label>
                 <input type="radio">
                 </p>
-            </div>
-            <div>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Programming Skill</legend>
                 <p>
                 <label for="Java">Java</label>
                 <input type="checkbox">
@@ -41,19 +48,25 @@
                 <label for="C#">C#</label>
                 <input type="checkbox">
                 </p>
-            </div>
-            <div>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Fruit</legend>
                 <label for="Choose a fruit">Choose a fruit</label>
                 <select>
                     <option>Banana</option>
                     <option>Apple</option>
                 </select>
-            </div>
-            <div>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Comment</legend>
                 <textarea>
                 </textarea>
-            </div>
-            <input type="submit" value="Send">
+                <input type="submit" value="Send">
+            </fieldset>
         </form>
     </body>
 </html>
