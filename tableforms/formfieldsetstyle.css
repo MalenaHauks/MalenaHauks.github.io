@@ -3,7 +3,7 @@ body
     background-color: rgb(194, 255, 194);
     margin-left: 20px;
 }
-form
+fieldset
 {
     border: 1px solid rgb(205, 31, 240);
     padding: 10px;
@@ -32,4 +32,9 @@ textarea
 {
     width: 380px;
     height: 100px;
+}
+legend
+{
+    background-color: rgb(253, 195, 255);
+    color: rgb(205, 31, 240);
 }
