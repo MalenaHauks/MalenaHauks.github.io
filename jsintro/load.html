@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="UTF-8">
+	<title> JavaScript start</title>
+    <script>
+        window.onload= function() 
+        {
+            alert("webbsidan är laddat ");
+        }
+        window.onbeforeunload = function (event) 
+        {
+            event.preventDefault();
+            return (event.ReturnValue == "");
+        }
+    </script>
+    <style>
+        a
+        {
+            font-size: large;
+            text-align: center;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.aftonbladet.se/">Läs Aftonbladet</a>
+</body>
+</html>
