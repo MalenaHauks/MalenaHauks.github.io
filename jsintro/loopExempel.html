@@ -5,18 +5,24 @@
 	<title>For/While Loop</title>
 </head>
 <body>
-	<p id="demo"></p>
 	<script>
-		const q = ["Hejsan", "hej","från","Harris", "Drapic",".","Jag","tycker","att","det","är","bra","tutorial","i","JavaScript","!"];
-		
-		let text = "";
-		for (let i = 0; i < q.length; i++) {
-		  text += q[i] + "-";
+		var answ = "";
+		var text = "Hejsan hej från Harris Drapic. Jag tycker att det är bra tutorial i javascript";
+		var i = 0;
+		while (i < text.length)
+		{
+		var result = text.substring(i,i+1)
+		answ += result + "-";
+		i++;
 		}
-		
-		document.getElementById("demo").innerHTML = text;
+		document.write("While loop:<br>" + answ)
+		document.write("<br><br>")
+		var ansf = "";
+		for(var f=0;f<text.length;f++)
+		{
+		ansf += text.substring(f,f+1) + "-";
+		}
+		document.write("For:<br>" + ansf)
 		</script>
-		
-	Hejsan hej från Harris Drapic. Jag tycker att det är bra tutorial i JavaScript!
 </body>
 </html>
