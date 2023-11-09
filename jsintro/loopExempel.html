@@ -6,15 +6,16 @@
 </head>
 <body>
 	<script>
-		function loops()
-		{
-			for(let i = 0; i < 5; i++) 
-			{
-				document.write("först med for")
-				text += "-" + i ;
-			}
+		const q = ["Hejsan", "hej","från","Harris", "Drapic",".","Jag","tycker","att","det","är","bra","tutorial","i","JavaScript","!"];
+		
+		let text = "";
+		for (let i = 0; i < q.length; i++) {
+		  text += q[i] + "-";
 		}
-	</script>
+		
+		document.getElementById("demo").innerHTML = text;
+		</script>
+		
 	Hejsan hej från Harris Drapic. Jag tycker att det är bra tutorial i JavaScript!
 </body>
 </html>
