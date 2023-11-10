@@ -6,21 +6,30 @@
 	<script>
 		function question()
 		{
-			if(number<0, number=0)
+            var x = 0;
+            var i = 1;
+            var num = parseInt(document.getElementById("num").value);
+			
+            if (num > 0) 
 			{
-				document.write("Error number>0 <br>Summera alla nummer från 1 till nr med while: 1")
-			}
-			else(number>0)
+                while(i < num+1)
+				{
+                    x = i + x;
+                    i++;
+                }
+                document.write("<br><br>" + x)
+            }
+            else 
 			{
-				document.write("Summera alla nummer från 1 till nr med for: 3 <br>Nu med while: <br>Summera alla nummer från 1 till nr med while: 3")
-			}
-		}
+                document.write("<br>Error: Remember number>0");    
+            }
+        }
 	</script>
 </head>
 <body>
 	<form>
 		<label for="number">Enter number (number>0):</label>
-		<input type="number" onclick="question()">
+		<input type="number" id="num" onclick="question()">
 	</form>
 </body>
 </html>
