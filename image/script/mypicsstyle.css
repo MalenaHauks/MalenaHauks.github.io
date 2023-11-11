@@ -5,6 +5,7 @@ figure{
     float: left;
     padding: 5px;
     box-shadow: 5px 5px 1px;
+    margin: 1px;
 }
 figure.a{
     background-color: rgb(255, 0, 106);
