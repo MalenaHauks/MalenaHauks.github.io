@@ -7,7 +7,7 @@ figure{
     box-shadow: 5px 5px 1px;
 }
 div{
-    padding: 1px;
+    border: 1px;
 }
 div.a{
     background-color: rgb(255, 0, 106);
