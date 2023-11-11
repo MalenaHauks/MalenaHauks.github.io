@@ -6,16 +6,13 @@ figure{
     padding: 5px;
     box-shadow: 5px 5px 1px;
 }
-div{
-    border: 1px;
-}
-div.a{
+figure.a{
     background-color: rgb(255, 0, 106);
 }
-div.b{
+figure.b{
     background-color: rgb(183, 0, 255);
 }
-div.c{
+figure.c{
     background-color: rgb(0, 132, 255);
 }
 figcaption{
