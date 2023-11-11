@@ -2,9 +2,9 @@ body{
     background-color: rgb(216, 203, 219);
 }
 img{
-    border: 2px;
+    border: 1px;
     padding: 10px;
-    box-shadow: 5px 5px 10px;
+    box-shadow: 5px 5px 1px;
 }
 img.a{
     background-color: rgb(255, 0, 106);
