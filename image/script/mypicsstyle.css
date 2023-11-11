@@ -1,17 +1,18 @@
 body{
     background-color: rgb(216, 203, 219);
 }
-img{
+figure{
+    float: left;
     padding: 5px;
     box-shadow: 5px 5px 1px;
 }
-img.a{
+figure.a{
     background-color: rgb(255, 0, 106);
 }
-img.b{
+figure.b{
     background-color: rgb(183, 0, 255);
 }
-img.c{
+figure.c{
     background-color: rgb(0, 132, 255);
 }
 figcaption{
@@ -19,7 +20,4 @@ figcaption{
     width: 250px;
     height: 40px;
     text-align: center;
-}
-figure{
-    float: left;
 }
