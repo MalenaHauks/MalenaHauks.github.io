@@ -1,22 +1,17 @@
-body
-{
-    background-color: rgb(237, 219, 241);
+body{
+    background-color: rgb(216, 203, 219);
 }
-div
-{
+img{
     border: 2px;
     padding: 10px;
     box-shadow: 5px 5px 10px;
 }
-div.a
-{
-    background-color: red;
-}
-div.b
-{
+img.a{
     background-color: rgb(255, 0, 106);
 }
-div.c
-{
-    background-color: rgb(255, 0, 234);
+img.b{
+    background-color: rgb(183, 0, 255);
+}
+img.c{
+    background-color: rgb(0, 132, 255);
 }
