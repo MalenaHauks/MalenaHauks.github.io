@@ -8,15 +8,15 @@
 	<script>
 		let text = "Hejsan hej från Harris Drapic. Jag tycker att det är bra tutorial i javascript!";
 		let ansf = "";
-		for(let f=0;f<text.length;f++) {
-			ansf += text.substring(f,f+1) + "-";
+		for(let f = 0; f < text.length; f++) {
+			ansf += text.substring(f, f+1) + "-";
 		}
 		document.write("Först med for:<br>" + ansf)
 		let answ = "";
 		let i = 0;
 		document.write("<br><br>")
 		while (i < text.length) {
-			let result = text.substring(i,i+1)
+			let result = text.substring(i, i+1)
 			answ += result + "-";
 			i++;
 		}
