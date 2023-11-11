@@ -20,3 +20,6 @@ figcaption{
     height: 40px;
     text-align: center;
 }
+figure{
+    float: left;
+}
