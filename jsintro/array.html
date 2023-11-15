@@ -25,6 +25,9 @@
 		document.write("After splice" + "<br/>")
 		cities.splice(3,0,"Stockholm");
 		cities.forEach(arrayElements)
+		document.write("After pop" + "<br/>")
+		delete cities[3];
+		cities.forEach(arrayElements)
 	</script>
 </body>
 </html>
