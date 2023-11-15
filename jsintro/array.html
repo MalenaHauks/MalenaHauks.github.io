@@ -6,9 +6,17 @@
 </head>
 <body>
 	<script>
-		const cities = ["Dubai","Paris","Mumbai","Dallas","Houston","Madrid"];
-		var citiesPush = cities.push(1231, 234, 34536)
-		document.write(cities)
+		var cities = ["Dubai","Paris","Mumbai","Dallas","Houston","Madrid"];
+		var i = 0
+		for (var i=0, i<3, i++){
+			var stad = prompt("skriv in stadens namn: ", "")
+		cities.push(stad)
+		}
+		document.write("After push")
+		cities.forEach(arrayElements)
+		function arrayElements(element, index){
+			document.write('cities['+ index +'] = ' + element + "<br/>");
+		}
 	</script>
 </body>
 </html>
