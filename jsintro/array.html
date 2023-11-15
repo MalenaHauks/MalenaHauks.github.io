@@ -17,9 +17,9 @@
 			document.write('cities['+ index +'] = ' + element + "<br/>");
 		}
 		document.write("After pop" + "<br/>")
-		cities.forEach(arrayElements)
-		function arrayElements(element, index){
-			document.write('cities['+ index +'] = ' + element + cities.pop + "<br/>");
+		function arrayElementsPop(element, index){
+			cities.pop()
+			document.write('cities['+ index +'] = ' + element + "<br/>");
 		}
 	</script>
 </body>
