@@ -4,8 +4,7 @@
 	<meta charset="utf-8">
 	<title>Window</title>
     <style>
-        input
-        {
+        input{
             height: 40px;
             color: brown;
             border: 2px 4px rgb(214, 214, 214);
@@ -13,6 +12,9 @@
             font-size: 1.2em;
             display: block;
             margin: 20px;
+        }
+        p{
+            color: brown;
         }
     </style>
 	<script>
@@ -30,6 +32,7 @@
 </head>
 <body>
     <form>
+        <p>Tryck på någon knapp:</p>
         <input type="button" value="Öppna popup fönster" onclick="newPopupWindow">
         <input type="button" value="Stäng popup fönster" onclick="closePopupWindow">
         <input type="button" value="Flytta popup fönster" onclick="">
