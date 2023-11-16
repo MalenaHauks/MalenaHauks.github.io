@@ -4,13 +4,18 @@
 	<meta charset="utf-8">
 	<title>History</title>
 	<script>
-
+        function goBack(){
+            window.history(goBack)
+        }
+        function goForward(){
+            window.history(goForward)
+        }
 	</script>
 </head>
 <body>
     <form>
-        <input type="button" value="Tillbaka" onclick="">
-        <input type="button" value="Frammåt" onclick="">
+        <input type="button" value="Tillbaka" onclick="goBack">
+        <input type="button" value="Frammåt" onclick="goForward">
         <input type="button" value="Gå" onclick="">
         <input type="button" value="Längd" onclick="">
     </form>

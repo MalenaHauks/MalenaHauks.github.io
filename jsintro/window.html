@@ -4,13 +4,22 @@
 	<meta charset="utf-8">
 	<title>Window</title>
 	<script>
-
+        var myWindow;
+        function newPopupWindow(){
+            myWindow = window.open("","_blank")
+        }
+        function closePopupWindow(){
+            window.close
+        }
+        function resizePopupWindow(){
+            mywindow.resizeBy()
+        }
 	</script>
 </head>
 <body>
     <form>
         <input type="button" value="Öppna popup fönster" onclick="">
-        <input type="button" value="Stäng popup fönster" onclick="">
+        <input type="button" value="Stäng popup fönster" onclick="closePopupWindow">
         <input type="button" value="Flytta popup fönster" onclick="">
         <input type="button" value="Ändra popup fönstrets storlek" onclick="">
         <input type="button" value="Info om ¨parent¨ fönster" onclick="">
