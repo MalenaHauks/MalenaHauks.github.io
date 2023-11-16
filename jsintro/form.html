@@ -4,13 +4,13 @@
 	<meta charset="utf-8">
 	<title>Form</title>
 	<script>
-		function India(){
+		function Indien(){
 			alert("Namaste")
 		}
 		function Japan(){
 			alert("Moshi Moshi")
 		}
-		function China(){
+		function Kina(){
 			alert("Ni hao");
 		}
 		function fieldN(x){
@@ -26,12 +26,23 @@
 </head>
 <body>
 	<form name="demo form">
-	<p>
-		<label for="ex">Exempel:</label>
-		<input type="text" name="exempelstring" size="50">
-	</p>
-	<input type="button" value="skriv ut exempelfield värde">
-	<input type="button" value="Japan" onclick="Japan">
+		<p>
+			<label for="ex">Exempel:</label>
+			<input type="text" name="exempelstring" size="50">
+		</p>
+		<input type="button" value="skriv ut exempelfield värde">
+		<p>Hej i olika länder</p>
+		<input type="button" value="Japan" onclick="Japan">
+		<input type="button" value="Indien" onclick="Indien">
+		<input type="button" value="Kina" onclick="Kina">
+		<p>
+			<label for="namn">Namn:</label>
+			<input type="text" name="fieldN" size="50">
+		</p>
+		<p>
+			<label for="stad">Stad:</label>
+			<input type="text" name="city1" size="50">
+		</p>
 	</form>
 </body>
 </html>
