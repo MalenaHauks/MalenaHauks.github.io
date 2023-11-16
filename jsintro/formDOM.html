@@ -4,19 +4,28 @@
 	<meta charset="utf-8">
 	<title></title>
 	<script>
-
+        function bkground(col){
+            for(var i=0; i<col.color.length; i++){
+                if(col.color[i].checked){
+                    document.getElementById("b").style.backgroundColor=col.color[i].value
+                }
+            }
+        }
+        function bkgroundReset(){
+            
+        }
 	</script>
 </head>
 <body>
-    <form>
+    <form name="radioform">
         <h1>Selekt bakgrundsfärg?</h1>
-        <input type="radio">
-        <input type="radio">
-        <input type="radio">
-        <input type="radio">
-        <input type="radio">
-        <input type="button" value="Selekt Färg">
-        <input type="button" value="Återställ">
+        <input type="radio" name="color" value="#fa3123">Röd<br>
+        <input type="radio" name="color" value="#fad323">Gul<br>
+        <input type="radio" name="color" value="#23faaf">Grön<br>
+        <input type="radio" name="color" value="#23a8fa">Blå<br>
+        <input type="radio" name="color" value="#d323fa">Lila<br>
+        <input type="button" value="Selekt Färg" onclick="bkground(thisform)">
+        <input type="button" value="Återställ" onclick="bkgroundReset">
     </form>
 </body>
 </html>
