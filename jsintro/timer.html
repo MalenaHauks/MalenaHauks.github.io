@@ -38,14 +38,20 @@
         function goTim(){
             myTimer= setTimer(transX,500);
         }
+        function clearInt(){
+            clearInterval(myInterval);
+        }
+        function clearTim(){
+            clearTimeout(myTimer);
+        }
 	</script>
 </head>
 <body>
     <form>
         <input type="button" value="Set interval" onclick="goInt">
         <input type="button" value="Set timeout" onclick="goTim">
-        <input type="button" value="Clear timeout" onclick="">
-        <input type="button" value="Clear interval" onclick="">
+        <input type="button" value="Clear timeout" onclick="clearTim">
+        <input type="button" value="Clear interval" onclick="clearInt">
     </form>
 </body>
 </html>
