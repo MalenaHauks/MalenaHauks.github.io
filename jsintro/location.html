@@ -19,13 +19,24 @@
     </style>
 	<script>
         document.write("<span>Href: " + location.href + "</span>" + "<br/>")
+        document.write("<span>Pathname: " + location.origin + "</span>" + "<br/>")
+        document.write("Protocol: https: ")
+        function aftonB(){
+            location.assign("http://www.aftonbladet.se/")
+        }
+        function express(){
+            location.replace("http://www.expressen.se/")
+        }
+        function re(){
+            location.reload()
+        }
 	</script>
 </head>
 <body>
     <form>
-        <input type="button" value="Gå till - assign" onclick="location.assign()">
-        <input type="button" value="Gå till - replace" onclick="">
-        <input type="button" value="Ladda om - uppdatera" onclick="">
+        <input type="button" value="Gå till - assign" onclick="aftonB">
+        <input type="button" value="Gå till - replace" onclick="express">
+        <input type="button" value="Ladda om - uppdatera" onclick="re">
     </form>
 </body>
 </html>
