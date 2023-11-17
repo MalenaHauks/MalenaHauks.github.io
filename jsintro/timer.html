@@ -15,17 +15,35 @@
             display: block;
             margin: 20px;
         }
+        #myBox{
+            width: 60px;
+            height: 60px;
+            background-color: blueviolet;
+            position: absolute;
+            box-shadow: 2px 3px 2px;
+        }
     </style>
 	<script>
-        function setInterval(){
-            
+        var Xpos = 0;
+        var myTimer;
+        var myInterval;
+        function transX(){
+            Xpos+=15;
+            var left = Xpos + "px";
+            document.getElementById("myBox").style.left=left;
+        }
+        function goInt(){
+            myInterval= setInterval(transX,500);
+        }
+        function goTim(){
+            myTimer= setTimer(transX,500);
         }
 	</script>
 </head>
 <body>
     <form>
-        <input type="button" value="Set interval" onclick="setInterval">
-        <input type="button" value="Set timeout" onclick="">
+        <input type="button" value="Set interval" onclick="goInt">
+        <input type="button" value="Set timeout" onclick="goTim">
         <input type="button" value="Clear timeout" onclick="">
         <input type="button" value="Clear interval" onclick="">
     </form>
