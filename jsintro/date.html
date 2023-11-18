@@ -5,10 +5,10 @@
 	<title>Date</title>
 	<script>
 		const d = new Date();
-		var year = setFullYear(2023);
-		var month = setMonth(11);
-		var day = setDate(31);
-		var q = math.floor((year+month+day)-(d));
+		const year = setFullYear(2023);
+		const month = setMonth(11);
+		const day = setDate(31);
+		var q = math.floor((year.setFullYear() + month.setMonth() + day.setDate())-(d));
 		document.write("Datum: " + d + "<br/>");
 		const e = new Date("Sat Aug 30 2014 00:00 GMT+0200(centraleuropeisk sommartid)");
 		document.write("Specifikt datum: " + e + "<br/>");
