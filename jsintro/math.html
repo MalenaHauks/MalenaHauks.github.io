@@ -5,18 +5,18 @@
 	<title>Math</title>
 	<script>
 		var heltal=parseInt(prompt("Skriv in ett tal:", "10"));
-		document.write("Number is " + heltal + "<br>");
+		document.write("Number is <b>" + heltal + "</b><br>");
 		var lo = Math.floor(Math.log10(heltal)*100)/100;
-		document.write("log10 is " + lo + "<br/>");
+		document.write("log10 is <b>" + lo + "</b><br/>");
 		var sq = Math.floor(Math.sqrt(heltal)*100)/100;
-		document.write("sqrt is " + sq + "<br>");
+		document.write("sqrt is <b>" + sq + "</b><br>");
 		var pi = Math.floor(Math.PI*100)/100;
-		document.write("Value of PI is " + pi + "<br>");
-		document.write("Power to 2 is " + Math.pow(heltal,2).toFixed(2) + "<br>");
+		document.write("Value of PI is <b>" + pi + "</b><br>");
+		document.write("Power to 2 is <b>" + Math.pow(heltal,2).toFixed(2) + "</b><br>");
 		var si = Math.floor(Math.sin(heltal)*100)/100;
-		document.write("Sin is " + si + "<br>");
+		document.write("Sin is <b>" + si + "</b><br>");
 		var ra = Math.floor(Math.floor(Math.random()*15)+5*100)/100;
-		document.write("Random between 5 and 15: " + ra + "<br>");
+		document.write("Random between 5 and 15: <b>" + ra + "</b><br>");
 	</script>
 </head>
 <body>
