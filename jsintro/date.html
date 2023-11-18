@@ -6,16 +6,13 @@
 	<script>
 		const d = new Date();
 		const s = new Date();
-		s.setFullYear(2023);
-		s.setMonth(11);
-		s.setDate(31);
-		var q = Math.floor((s)-(d));
-		document.write("Datum: " + d + "<br/>");
+		var q = Math.floor((new Date(new Date().getFullYear() + "December 31")-d));
+		document.write("<b>Datum: </b>" + d + "<br/>");
 		const e = new Date("Sat Aug 30 2014 00:00 GMT+0200(centraleuropeisk sommartid)");
-		document.write("Specifikt datum: " + e + "<br/>");
-		document.write("År: " + d.getFullYear() + "<br/>");
-		document.write("Tid: " + d.getHours()+ ":" + d.getMinutes() + ":" + d.getSeconds() + "<br/>");
-		document.write("Nytt år är " + q + "dagar ifrån.");
+		document.write("<b>Specifikt datum: </b>" + e + "<br/>");
+		document.write("<b>År: </b>" + d.getFullYear() + "<br/>");
+		document.write("<b>Tid: </b>" + d.getHours()+ ":" + d.getMinutes() + ":" + d.getSeconds() + "<br/>");
+		document.write("Nytt år är <b>" + q + "</b>dagar ifrån.");
 	</script>
 </head>
 <body>
