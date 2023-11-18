@@ -10,7 +10,7 @@
     </style>
 	<script>
         function bkground(col){
-            for(var i=0; i<col.color.length; i++){
+            for(var i=0; i<selF_col.color.length; i++){
                 if(col.color[i].checked){
                     document.getElementById("b").style.backgroundColor=col.color[i].value
                 }
@@ -22,7 +22,7 @@
 	</script>
 </head>
 <body id="b">
-    <form>
+    <form name="selF">
         <h1>Selekt bakgrundsfärg?</h1>
         <input type="radio" name="color" value="#fa3123">Röd<br>
         <input type="radio" name="color" value="#fad323">Gul<br>
