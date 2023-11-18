@@ -22,16 +22,16 @@
 	<script>
         var myWindow = "width=1200,height=800,left=100,top=100";
         function newPopupWindow(){
-            myWindow = window.open("snowleopard.jpg", "Snowleopard", myWindow)
+            myWindow = window.open("snowleopard.jpg", "Snowleopard").focus();
         }
         function closePopupWindow(){
             myWindow = window.close
         }
         function movePopupWindow(){
-            myWindow.moveTo(250,0)
+            myWindow.moveTo(250,0).focus();
         }
         function resizePopupWindow(){
-            myWindow.resizeTo(600, 200);
+            myWindow.resizeTo(600, 200).focus();
         }
 	</script>
 </head>
