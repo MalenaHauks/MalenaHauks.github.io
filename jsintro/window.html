@@ -20,9 +20,9 @@
         }
     </style>
 	<script>
-        var myWindow;
+        var myWindow = "width=600,height=300,left=100,top=100";
         function newPopupWindow(){
-            myWindow = window.open("snowleopard.jpg", "Snowleopard")
+            myWindow = window.open("snowleopard.jpg", "Snowleopard", myWindow)
         }
         function closePopupWindow(){
             myWindow = window.close
