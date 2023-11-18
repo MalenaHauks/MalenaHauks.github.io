@@ -18,8 +18,9 @@
         }
     </style>
 	<script>
-        function goBack(){
-            window.history(goBack)
+        let lengthR = window.history.length;
+        function lengthH(){
+            document.getElementById("demo").innerHTML = lengthR;
         }
 	</script>
 </head>
@@ -28,7 +29,9 @@
         <input type="button" value="Tillbaka" onclick="history.back()">
         <input type="button" value="Frammåt" onclick="history.forward()">
         <input type="button" value="Gå" onclick="history.go()">
-        <input type="button" value="Längd" onclick="history.length()">
+        <input type="button" value="Längd" onclick="lengthH()">
     </form>
+    <p>Number of URLs in history list:</p>
+    <p id="demo"></p>
 </body>
 </html>
