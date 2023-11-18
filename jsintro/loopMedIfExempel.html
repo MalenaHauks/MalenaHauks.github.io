@@ -4,16 +4,14 @@
 	<meta charset="UTF-8">
 	<title>If Loop</title>
 	<script>
-		function question()
-		{
+		function question(){
             let x = 0;
             let i = 1;
             let num = parseInt(document.getElementById("num").value);
 			
             if (num > 0) {
-                while(i < num+1)
-				{
-                    x = i + x;
+                while(i < num+1){
+                    x += i;
                     i++;
                 }
                 document.write("<br><br>" + x)
