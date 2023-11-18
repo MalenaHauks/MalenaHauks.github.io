@@ -8,11 +8,15 @@
 		document.write("Number is " + heltal + "<br>");
 		var lo = Math.floor(Math.log10(heltal)*100)/100;
 		document.write("log10 is " + lo + "<br/>");
-		document.write("sqrt is " + Math.sqrt(heltal) + "<br>");
+		var sq = Math.floor(Math.sqrt(heltal)*100)/100;
+		document.write("sqrt is " + sq + "<br>");
 		document.write("Value of PI is " + Math.PI + "<br>");
-		document.write("Power to 2 is " + Math.pow(heltal) + "<br>");
-		document.write("Sin is " + Math.sin(heltal) + "<br>");
-		document.write("Random between 5 and 15 " + Math.floor(Math.random()*15)+5 + "<br>");
+		var po = Math.floor(Math.pow(heltal)*100)/100;
+		document.write("Power to 2 is " + po + "<br>");
+		var si = Math.floor(Math.sin(heltal)*100)/100;
+		document.write("Sin is " + si + "<br>");
+		var ra = Math.floor(Math.floor(Math.random()*15)+5*100)/100;
+		document.write("Random between 5 and 15 " + ra + "<br>");
 	</script>
 </head>
 <body>
