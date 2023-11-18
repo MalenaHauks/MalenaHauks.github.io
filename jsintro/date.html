@@ -6,7 +6,7 @@
 	<script>
 		const d = new Date();
 		const s = new Date();
-		var q = Math.floor((new Date(new Date().getFullYear() + "December 31")-d/(1000*60*60*24)+1));
+		var q = Math.floor((new Date(new Date().getFullYear() + "December 31")-new Date())/(1000*60*60*24)+1);
 		document.write("<b>Datum: </b>" + d + "<br/>");
 		const e = new Date("Sat Aug 30 2014 00:00 GMT+0200(centraleuropeisk sommartid)");
 		document.write("<b>Specifikt datum: </b>" + e + "<br/>");
