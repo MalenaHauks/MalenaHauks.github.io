@@ -6,7 +6,8 @@
 	<script>
 		var heltal=prompt("Skriv in ett tal:", "10");
 		document.write("Number is " + heltal + "<br>");
-		document.write("log10 is " + Math.log10(heltal) + "<br/>");
+		var lo = Math.floor(Math.log10(heltal)*100)/100;
+		document.write("log10 is " + lo + "<br/>");
 		document.write("sqrt is " + Math.sqrt(heltal) + "<br>");
 		document.write("Value of PI is " + Math.PI + "<br>");
 		document.write("Power to 2 is " + Math.pow(heltal) + "<br>");
