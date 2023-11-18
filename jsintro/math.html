@@ -5,6 +5,9 @@
 	<title>Math</title>
 	<script>
 		var heltal=prompt("Skriv in ett tal:", "10");
+		if(isNan(heltal)){
+			return "Bara positiva heltal!"
+		}
 		document.write("Number is " + heltal + "<br>");
 		var lo = Math.floor(Math.log10(heltal)*100)/100;
 		document.write("log10 is " + lo + "<br/>");
