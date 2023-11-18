@@ -13,15 +13,6 @@
 		function Kina(){
 			alert("Ni hao");
 		}
-		function fieldN(){
-			document.getElementedById("Namn").style.backgroundColor = "yellow";
-		}
-		function city1(){
-			document.getElementedById("Stad").style.backgroundColor = "green";
-		}
-		function defaultColor(){
-			document.getElementedById().style.backgroundColor = "white";
-		}
 	</script>
 </head>
 <body>
@@ -37,11 +28,11 @@
 		<input type="button" value="Kina" onclick="Kina()">
 		<p>
 			<label for="Namn">Namn:</label>
-			<input type="text" id="Namn" onclick="style.backgroundColor = 'yellow'" on size="46">
+			<input type="text" id="Namn" onclick="style.backgroundColor = 'yellow'" onblur="style.backgroundColor = 'white'" size="46">
 		</p>
 		<p>
 			<label for="Stad">Stad:</label>
-			<input type="text" id="Stad" onclick="style.backgroundColor = 'green'" size="25">
+			<input type="text" id="Stad" onclick="style.backgroundColor = 'green'" onblur="style.backgroundColor = 'white'" size="25">
 		</p>
 	</form>
 </body>
