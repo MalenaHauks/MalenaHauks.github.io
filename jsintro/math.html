@@ -4,10 +4,7 @@
 	<meta charset="utf-8">
 	<title>Math</title>
 	<script>
-		var heltal=prompt("Skriv in ett tal:", "10");
-		if(isNan(heltal)){
-			return "Bara positiva heltal!"
-		}
+		var heltal=parseInt(prompt("Skriv in ett tal:", "10"));
 		document.write("Number is " + heltal + "<br>");
 		var lo = Math.floor(Math.log10(heltal)*100)/100;
 		document.write("log10 is " + lo + "<br/>");
@@ -24,13 +21,5 @@
 	</script>
 </head>
 <body>
-	<br><br>
-	<pre>
-	function typeOfNan(heltal){
-		if (Number.isNaN(heltal)){
-			return Number.isNaN();
-		}
-	}
-	</pre>
 </body>
 </html>
