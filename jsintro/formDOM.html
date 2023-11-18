@@ -9,7 +9,6 @@
         }
     </style>
 	<script>
-        var col = 0;
         function bkground(col){
             for(var i=0; i<col.color.length; i++){
                 if(col.color[i].checked){
@@ -22,8 +21,8 @@
         }
 	</script>
 </head>
-<body>
-    <form id="b">
+<body id="b">
+    <form>
         <h1>Selekt bakgrundsfärg?</h1>
         <input type="radio" name="color" value="#fa3123">Röd<br>
         <input type="radio" name="color" value="#fad323">Gul<br>
