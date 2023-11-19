@@ -20,13 +20,13 @@
                 document.write("<br>Error: Remember number>0");  
             }
             else {
-                document.write("");
+                document.getElementById("aThing").innerHTML = "";
             }
         }
 	</script>
 </head>
 <body>
-	<form>
+	<form id="aThing">
 		<label for="number">Enter number (number>0):</label>
 		<input type="number" id="num" onclick="question()">
 	</form>
