@@ -14,10 +14,10 @@
                     x += i;
                     i++;
                 }
-                document.write("<br><br>" + x);
+                document.getElementById("aThing").innerHTML = x;
             }
             else if (num < 0){
-                document.write("<br>Error: Remember number>0");  
+                document.getElementById("aThing").innerHTML = "<br>Error: Remember number>0";  
             }
             else {
                 document.getElementById("aThing").innerHTML = "";
