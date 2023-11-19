@@ -3,7 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>If Loop</title>
-	<script>
+</head>
+<body>
+    <form>
+        <label for="num">Enter number (number>0):</label>
+        <input type="number" id="num" onchange="question()">
+        <p id="aThing"></p>
+    </form>
+    <script>
 		function question(){
             var x = 0;
             var i = 1;
@@ -23,12 +30,5 @@
             }
         }
 	</script>
-</head>
-<body>
-    <form>
-        <label for="num">Enter number (number>0):</label>
-        <input type="number" id="num" onchange="question()">
-        <p id="aThing"></p>
-    </form>
 </body>
 </html>
