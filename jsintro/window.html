@@ -19,13 +19,13 @@
             margin-left: 20px;
         }
         #myWindow{
-            z-index: absolute;
+            z-index: relative;
         }
     </style>
 	<script>
         var myWindow = "width=1050,height=400,left=100,top=100";
         function newPopupWindow(){
-            myWindow = window.open("snowleopard.jpg", "Snowleopard", myWindow).style.zIndex;
+            myWindow = window.open("snowleopard.jpg", "Snowleopard", myWindow).style.zIndex="99999999999";
         }
         function closePopupWindow(){
             myWindow = window.close
