@@ -28,16 +28,13 @@
             myWindow = window.open("snowleopard.jpg", "Snowleopard", myWindow);
         }
         function closePopupWindow(){
-            myWindow = window.close
+            myWindow = window.close();
         }
         function movePopupWindow(){
             myWindow = window.moveTo(250,0);
         }
         function resizePopupWindow(){
             myWindow = window.resizeTo(900, 600);
-        }
-        function parentPopupInfo(){
-            myWindow = window.parent();
         }
 	</script>
 </head>
@@ -48,7 +45,7 @@
         <input type="button" value="Stäng popup fönster" onclick="closePopupWindow()">
         <input type="button" value="Flytta popup fönster" onclick="movePopupWindow()">
         <input type="button" value="Ändra popup fönstrets storlek" onclick="resizePopupWindow()">
-        <input type="button" value="Info om ¨parent¨ fönster" onclick="parentPopupInfo()">
+        <input type="button" value="Info om ¨parent¨ fönster" onclick="window.parent()">
     </form>
 </body>
 </html>
