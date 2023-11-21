@@ -1,0 +1,44 @@
+<html lang="sv">
+<head>
+	<meta charset="UTF-8">
+	<title>If Loop</title>
+  <style>
+    input.b{
+      background-color: rgb(72, 249, 255);
+      width: 50px;
+    }
+  </style>
+</head>
+<body>
+    <label for="num1">Enter number (number>0):</label>
+    <input type="number" id="num1" onchange="talNumber1()">
+    <p id="tal1"></p>
+    <label for="num2">Enter number (number>0):</label>
+    <input type="number" id="num2" onchange="talNumbe2()">
+    <p id="tal2"></p>
+    <input type="button" class=b value="+">
+    <input type="button" class=b value="-">
+    <input type="button" class=b value="*">
+    <input type="button" class=b value="/">
+    <script>
+		function talNumber1(){
+            var x = 0;
+            var i = 1;
+            var tal1 = parseInt(document.getElementById("tal1").value);
+            var tal2 = parseInt(document.getElementById("tal2").value);
+            if (tal1 > 0) {
+                while(i < tal1,tal2){
+                    tal1+tal2
+                }
+                document.getElementById("tal1+tal2").innerHTML = x;
+            }
+            else if (num < 0){
+                document.getElementById("tal1").innerHTML = "<br>Error";  
+            }
+            else {
+                document.getElementById("tal1").innerHTML = "";
+            }
+        }
+	</script>
+</body>
+</html>
