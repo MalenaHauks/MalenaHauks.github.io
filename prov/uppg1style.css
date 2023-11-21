@@ -25,7 +25,7 @@ tfoot{
     color: green;
 }
 fieldset{
-    border: 1px solid rgb(189, 13, 224);
+    border: 1px solid;
     padding: 10px;
     width: 500px;
     display: block;
@@ -73,5 +73,5 @@ select{
 }
 div{
   float: left;
-  margin: 10px;
+  margin: 100px;
 }
