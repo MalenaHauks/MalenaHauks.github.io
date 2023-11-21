@@ -30,10 +30,10 @@
             myWindow = null;
         }
         function movePopupWindow(){
-            myWindow = window.moveTo(250,0);
+            myWindow?.moveTo(250,0);
         }
         function resizePopupWindow(){
-            myWindow = window.resizeTo(700, 400);
+            myWindow?.resizeTo(700, 400);
         }
         function popupInfo(){
             let parent = myWindow.parent;
