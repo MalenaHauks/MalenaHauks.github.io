@@ -23,18 +23,30 @@
         }
     </style>
 	<script>
-        var myWindow = "width=1050,height=400,left=100,top=100";
+        const myPopup = "width=1050,height=400,left=100,top=100";
+        var myWindow = "null";
         function newPopupWindow(){
-            myWindow = window.open("snowleopard.jpg", "Snowleopard", myWindow).focus();
+            myWindow = window.open("snowleopard.jpg", "Snowleopard", myWindow);
         }
         function closePopupWindow(){
-            myWindow = window.close();
+            myWindow.close();
+            myWindow = "null";
         }
         function movePopupWindow(){
             myWindow = window.moveTo(250,0);
         }
         function resizePopupWindow(){
-            myWindow = window.resizeTo(900, 600);
+            myWindow = window.resizeTo(700, 400);
+        }
+        function popupInfo(){
+            let parent = myWindow.parent;
+            if (parent) {
+                const result = document.getElementById("result");
+                result.innerHTML = 
+                    `outerHeight: ${parent.outerHeight}<br>
+                     outerWidth: ${parent.outerWidth}<br>
+                     Screen width: ${parent.screen.width}`
+            }
         }
 	</script>
 </head>
@@ -45,7 +57,8 @@
         <input type="button" value="Stäng popup fönster" onclick="closePopupWindow()">
         <input type="button" value="Flytta popup fönster" onclick="movePopupWindow()">
         <input type="button" value="Ändra popup fönstrets storlek" onclick="resizePopupWindow()">
-        <input type="button" value="Info om ¨parent¨ fönster" onclick="window.parent">
+        <input type="button" value="Info om ¨parent¨ fönster" onclick="popupInfo()">
+        <div id = "result"></div>
     </form>
 </body>
 </html>
