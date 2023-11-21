@@ -4,17 +4,27 @@
 	<title>If Loop</title>
   <style>
     input.b{
-      background-color: rgb(72, 249, 255);
+      background-color: blue;
       width: 50px;
+    }
+    input{
+      margin: 10px;
+    }
+    input.a{
+      width: 60px;
+      margin-left: 60px;
+    }
+    label{
+      font-style: italic;
     }
   </style>
 </head>
 <body>
-    <label for="num1">Enter number (number>0):</label>
-    <input type="number" id="num1" onchange="talNumber1()">
+    <label for="num1">Tal 1:</label>
+    <input type="number" id="num1" class="a" onchange="talNumber1()">
     <p id="tal1"></p>
-    <label for="num2">Enter number (number>0):</label>
-    <input type="number" id="num2" onchange="talNumbe2()">
+    <label for="num2">Tal 2:</label>
+    <input type="number" id="num2" class="a" onchange="talNumbe2()">
     <p id="tal2"></p>
     <input type="button" class=b value="+">
     <input type="button" class=b value="-">
