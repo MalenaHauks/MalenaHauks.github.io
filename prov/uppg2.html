@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="sv">
 <head>
 	<meta charset="UTF-8">
@@ -26,22 +27,15 @@
     <label for="num2">Tal 2:</label>
     <input type="number" id="num2" class="a" onchange="talNumbe2()">
     <p id="tal2"></p>
-    <input type="button" class=b value="+">
-    <input type="button" class=b value="-">
-    <input type="button" class=b value="*">
-    <input type="button" class=b value="/">
+    <input type="button" class=b value="+" onclick="Resultat()">
+    <input type="button" class=b value="-" onclick="Resultat()">
+    <input type="button" class=b value="*" onclick="Resultat()">
+    <input type="button" class=b value="/" onclick="Resultat()">
     <script>
-		function talNumber1(){
+		function Resultat(){
             var tal1 = parseInt(document.getElementById("tal1").value);
             var tal2 = parseInt(document.getElementById("tal2").value);
-            if (tal1 > 0) {
-  					}
-            else if (tal1 < 0,tal2 < 0){
-                document.getElementById("tal2").innerHTML = "<br>Error";  
-            }
-            else {
-                document.getElementById("tal2").innerHTML = "";
-            }
+            alert(tal1, tal2)
         }
 	</script>
 </body>
