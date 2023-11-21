@@ -21,13 +21,13 @@
     </style>
 	<script>
         const myPopup = "width=1050,height=400,left=100,top=100";
-        var myWindow = "null";
+        var myWindow = null;
         function newPopupWindow(){
             myWindow = window.open("snowleopard.jpg", "Snowleopard", myWindow);
         }
         function closePopupWindow(){
             myWindow.close();
-            myWindow = "null";
+            myWindow = null;
         }
         function movePopupWindow(){
             myWindow = window.moveTo(250,0);
