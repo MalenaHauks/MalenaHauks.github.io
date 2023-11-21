@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(194, 255, 194);
+    margin-left: 30px;
+}
+caption{
+    text-align: center;
+    font-style: italic;
+}
+th{
+    color: red;
+}
+table{
+    border-collapse: collapse;
+    border: 3px solid blue;
+    width: 380px;
+    box-shadow: 5px 5px 2px;
+}
+td,th{
+    padding: 10px 2px;
+    border: 2px solid green;
+    height: 13px;
+    text-align: center;
+}
+tfoot{
+    color: green;
+}
+fieldset{
+    border: 1px solid rgb(189, 13, 224);
+    padding: 10px;
+    width: 500px;
+    display: block;
+    margin: 10px;
+}
+p{
+    display: block;
+    margin: 1em;
+}
+label{
+    color: blue;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+label.b{
+    color: black;
+}
+input{
+    border: 2px solid grey;
+}
+input.b{
+    border-bottom: 3px gray;
+    border-right: 3px gray;
+}
+input.c{
+    border-top: 3px gray;
+    border-left: 3px gray;
+    width: 100px;
+    margin-left: 200px;
+}
+textarea{
+    width: 380px;
+    height: 100px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+legend{
+    background-color: rgb(254, 219, 255);
+    color: rgb(189, 13, 224);
+}
+select{
+    border: 1px 3px gray;
+    background-color: rgb(231, 231, 231);
+}
+div{
+  float: left;
+  margin: 10px;
+}
