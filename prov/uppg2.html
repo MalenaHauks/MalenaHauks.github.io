@@ -23,19 +23,17 @@
 <body>
     <label for="num1">Tal 1:</label>
     <input type="number" id="num1" class="a" onchange="talNumber1()">
-    <p id="tal1"></p>
     <label for="num2">Tal 2:</label>
     <input type="number" id="num2" class="a" onchange="talNumbe2()">
-    <p id="tal2"></p>
     <input type="button" class=b value="+" onclick="Resultat()">
     <input type="button" class=b value="-" onclick="Resultat()">
     <input type="button" class=b value="*" onclick="Resultat()">
     <input type="button" class=b value="/" onclick="Resultat()">
     <script>
 		function Resultat(){
-            var tal1 = parseInt(document.getElementById("tal1").value);
-            var tal2 = parseInt(document.getElementById("tal2").value);
-            alert(tal1, tal2)
+            var tal1 = parseInt(document.getElementById("num1").value);
+            var tal2 = parseInt(document.getElementById("num2").value);
+            alert(num1, num2)
         }
 	</script>
 </body>
