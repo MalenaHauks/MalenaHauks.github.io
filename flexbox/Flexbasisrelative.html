@@ -5,13 +5,21 @@
     <title></title>
     <style>
         div{
-            display: flex;
             border: 1px solid black;
+            border-radius: 2px;
             background-color: aqua;
-            flex-wrap: wrap;
+            text-align: center;
         }
         div.odd{
+            width: 50px;
+        }
+        div.even{
+            width: 100px;
+        }
+        div.container{
+            flex-wrap: wrap;
             display: flex;
+            justify-content: flex-start;
         }
     </style>
 </head>
