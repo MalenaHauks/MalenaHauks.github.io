@@ -5,26 +5,32 @@
     <title>My second flexbox</title>
     <style>
         div{
+            text-align: center;
+            font-size: 5em;
+            color: white;
+        }
+        .odd{
+            width: 300px;
+            height: 80px;
             border: 1px solid black;
             border-radius: 2px;
             background-color: aqua;
-            text-align: center;
-            font-size: large;
-            color: white;
         }
-        div.odd{
-            width: 300px;
-            height: 80px;
-        }
-        div.even{
+        .even{
             width: 600px;
             height: 80px;
+            border: 1px solid black;
+            border-radius: 2px;
+            background-color: aqua;
         }
-        div.alt{
+        .alt{
             width: 1200px;
             height: 80px;
+            border: 1px solid black;
+            border-radius: 2px;
+            background-color: aqua;
         }
-        div.container{
+        .container{
             flex-wrap: wrap;
             display: flex;
             justify-content: flex-start;
