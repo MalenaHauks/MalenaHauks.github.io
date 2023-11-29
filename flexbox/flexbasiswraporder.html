@@ -8,10 +8,12 @@
             text-align: center;
         }
         .header{
+            flex: 100%;
             background-color: salmon;
             flex-basis: relative;
         }
         .footer{
+            flex: 100%;
             background-color: lightgreen;
             flex-basis: relative;
         }
@@ -19,19 +21,17 @@
             display: flex;
             justify-content: flex-start;
             align-items: space-around;
+            flex-wrap: wrap;
         }
         .aside-1{
-            order: 1;
             flex: 20%;
             background-color: yellow;
         }
         .main{
-            order: 2;
             flex: 60%;
             background-color: turquoise;
         }
         .aside-2{
-            order: 3;
             flex: 20%;
             background-color: fuchsia;
         }
