@@ -9,16 +9,17 @@
         }
         .header{
             background-color: brown;
-            height: 80px;
             font-size: 2em;
             margin: 0;
+            font-style: italic;
+            padding: 30px;
         }
         .footer{
             background-color: blueviolet;
-            height: 40px;
             text-align: right;
             font-size: small;
             margin: 0;
+            padding: 20px;
         }
         .head{
             display: flex;
@@ -26,24 +27,28 @@
             align-items: stretch;
             flex-wrap: nowrap;
         }
-        .news{
+        #news{
             flex: 20%;
             background-color: salmon;
+            font-style: italic;
         }
         .article{
             flex: 60%;
             background-color: aqua;
         }
-        .contact{
+        #contact{
             flex: 20%;
             background-color: salmon;
+            font-style: italic;
+            align-self: flex-end;
+            flex: 2;
         }
     </style>
 </head>
 <body>
     <p class="header">Hip & happening inline</p>
         <div class="head">
-            <div class="news"><h2>News</h2></div>
+            <div id="news"><h2>News</h2></div>
             <div class="article"><h2>Where It's At</h2><p>Lorem ipsum dolor sit amet, 
                 consectetur adipiscing elit. In eget tristique elit. Etiam euismod dictum 
                 lectus, ut efficitur diam tristique facilisis. Cras sem tortor, dignissim 
@@ -52,7 +57,7 @@
                 posuere nisl consequat. Aliquam non pellentesque velit. Quisque sit 
                 amet pretium odio. In convallis quis lectus non laoreet. Integer non erat 
                 quis eros elementum ultricies quis in tellus. </p></div>
-            <div class="contact"><h2>Contact</h2></div>
+            <div id="contact"><h2>Contact</h2></div>
         </div> 
     <p class="footer">The small print</p>
 </body>
