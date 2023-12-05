@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bakery</title>
+    <script src="https://kit.fontawesome.com/da87fa89bb.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+        color: white;
+        }
+        @media screen and (max-width: 605px){
+            li{
+                float: none;
+                width: 250px;
+                flex: 100%;
+            }
+        }
+        #main{
+        display: flex;
+        justify-content: space-between; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 8px;
+        }
+        .menu{
+        background-color: saddlebrown;
+        font-size: 1.6em;
+        flex: 92%;
+        }
+        ul{
+        list-style-type: none;
+        margin: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+        }
+        li{
+        border: 2px solid white;
+        border-radius: 7px;
+        padding: 8px;
+        margin: 5px;
+        float: left;
+        }
+        .logo{
+        background-image: url(logo.png);
+        background-size: cover;
+        flex: 8%;
+        }
+        .bild{
+        position: relative;
+        text-align: center;
+        flex: 100%;
+        }
+        .center{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="menu">
+            <ul>
+                <li>MENU</li>
+                <li>NEWS</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+            </ul>
+        </div>
+        <div class="logo"></div>
+        <div class="bild">
+            <img src="croissants.jpg" alt="Croissants" style="width: 100%;">
+            <div class="center"><h1>Harris Bakery</h1></div>
+        </div>
+    </div>
+</body>
+</html>
