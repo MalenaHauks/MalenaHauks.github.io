@@ -7,10 +7,8 @@
         body{
         color: white;
         }
-        @media only screen and (max-width: 600px){
-            li{
-                display: block;
-            }
+        @media screen and (max-width: 600px){
+            li{float: none;}
         }
         #main{
         display: flex;
@@ -37,7 +35,7 @@
         }
         .logo{
         background-image: url(logo.png);
-        background-size: contain;
+        background-size: contain,cover;
         flex: 1;
         }
         .bild{
