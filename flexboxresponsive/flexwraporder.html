@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flexwraporder</title>
     <style>
+        body{
+            text-align: center;
+        }
         .wrapper{
             display: flex;
             flex-wrap: wrap;
@@ -16,7 +19,6 @@
         }
         .main{
             background-color: rgb(48, 226, 220);
-            flex-grow: 3;
             flex: 60%;
             order: 3;
         }
@@ -29,11 +31,13 @@
             background-color: yellow;
             order: 2;
             flex-basis: 0px;
+            flex: 1 20%;
         }
         .aside-2{
             background-color: hotpink;
             order: 4;
             flex-basis: 0px;
+            flex: 1 20%;
         }
         @media screen and (max-width: 400px){
             .aside-1{
