@@ -11,24 +11,27 @@
         }
         .header{
             background-color: salmon;
-            flex: 100%;
+            flex: 1 100%;
         }
         .main{
             background-color: rgb(48, 226, 220);
+            flex-grow: 3;
+            flex: 60%;
         }
         .footer{
             background-color: palegreen;
-            flex: 100%;
+            flex: 1 100%;
         }
         .aside-1{
             background-color: yellow;
             order: 2;
+            flex-basis: 0px;
         }
         .aside-2{
             background-color: hotpink;
             order: 4;
         }
-        @media screen and (max-width: 560px){
+        @media screen and (max-width: 400px){
             .aside-1{
                 order: 3;
             }
