@@ -12,15 +12,18 @@
         .header{
             background-color: salmon;
             flex: 1 100%;
+            order: 1;
         }
         .main{
             background-color: rgb(48, 226, 220);
             flex-grow: 3;
             flex: 60%;
+            order: 3;
         }
         .footer{
             background-color: palegreen;
             flex: 1 100%;
+            order: 5;
         }
         .aside-1{
             background-color: yellow;
@@ -30,6 +33,7 @@
         .aside-2{
             background-color: hotpink;
             order: 4;
+            flex-basis: 0px;
         }
         @media screen and (max-width: 400px){
             .aside-1{
