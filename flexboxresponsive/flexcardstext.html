@@ -22,56 +22,51 @@
         }
         .main{
             background-color: rgb(48, 226, 220);
-            flex: 60%;
-            order: 3;
+            flex: 95%;
+            order: 2;
             flex-grow: 3;
-            padding: 6px;
+            padding: 8px;
         }
         .footer{
             background-color: palegreen;
             flex: 1 100%;
-            order: 5;
+            order: 6;
             padding: 8px;
+        }
+        .aside{
+            flex-basis: 0px;
+            padding: 8px;
+            flex: 1 20%;
         }
         .aside-1{
             background-color: gold;
-            order: 4;
-            flex-basis: 0px;
-            flex: 1 20%;
-            padding: 6px;
+            order: 3;
         }
         .aside-2{
             background-color: lemonchiffon;
-            order: 2;
-            flex-basis: 0px;
-            flex: 1 20%;
-            padding: 6px;
+            order: 4;
         }
         .aside-3{
             background-color: lightsalmon;
-            order: 4;
-            flex-basis: 0px;
-            flex: 1 20%;
-            padding: 6px;
+            order: 5;
         }
         @media screen and (max-width: 400px){
             .header,main,footer,aside{
                 box-shadow: 5px 5px 1px;
             }
-            .aside-1{
-                order: 3;
-                flex: 100%;
-            }
-            .main{
-                flex: 100%;
+            .wrapper{
+                flex-direction: column-reverse;
             }
         }
-        @media screen and (min-width: 400px) and (max-width: 800px){
-            .aside-1{
-                order: 3;
+        @media screen and (min-width: 800px){
+            .aside-2{
+                order: 2;
+            }
+            .aside-3{
+                order: 4;
             }
             .main{
-                flex: 100%;
+                order: 5;
             }
         }
     </style>
