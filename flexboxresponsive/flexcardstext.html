@@ -12,7 +12,7 @@
         .wrapper{
             display: flex;
             flex-wrap: wrap;
-            box-shadow: 2px 2px 1px;
+            box-shadow: 5px 5px 1px;
         }
         .header{
             background-color: lightcoral;
@@ -55,8 +55,8 @@
             padding: 6px;
         }
         @media screen and (max-width: 400px){
-            .wrapper{
-                box-shadow: 2px 2px 1px;
+            .header,main,footer,aside{
+                box-shadow: 5px 5px 1px;
             }
             .aside-1{
                 order: 3;
@@ -67,9 +67,6 @@
             }
         }
         @media screen and (min-width: 400px) and (max-width: 800px){
-            .wrapper{
-                box-shadow: 2px 2px 1px;
-            }
             .aside-1{
                 order: 3;
             }
@@ -85,7 +82,7 @@
         <div class="main">
             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>  
         </div>
-        <img src="foto3s.png" class="aside aside-1">
+        <img src="foto3.jpg" class="aside aside-1">
         <div class="aside aside-2">Aside section 1</div>
         <div class="aside aside-3">Aside section 2</div>
         <div class="footer">This is the end.</div>
