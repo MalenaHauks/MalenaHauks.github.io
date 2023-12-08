@@ -9,10 +9,34 @@
             background-color: palegreen;
             padding: 15px;
             display: flex;
+            flex-direction: column-reverse;
+            flex: 1 1 auto;
         }
         img{
             box-shadow: 2px 2px red;
             margin: 7px;
+        }
+        @media screen and (min-width: 450px) and (max-width: 900px){
+           .wrapper{
+            flex-wrap: wrap;
+           }
+           .first{
+            flex: 48%
+           }
+           .second{
+            flex: 48%;
+           }
+           .third{
+            flex: 96%
+           }
+        }
+        @media screen and (min-width: 900px){
+           .wrapper{
+            flex-direction: row-reverse;
+           }
+           .first{
+            order: 2;
+           }
         }
     </style>
 </head>
