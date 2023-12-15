@@ -28,7 +28,8 @@
         .second{
             display: flex;
             flex-direction: row;
-            margin-left: auto;
+            position: absolute;
+            right: 10px;
         }
         .mainThing{
             display: flex;
@@ -62,7 +63,10 @@
         }
         i{
             margin: 1px;
-            size: 1em;
+            size: 2em;
+        }
+        h2{
+            margin: 1px;
         }
         .myTwoForms{
             display: flex;
@@ -103,7 +107,7 @@
                 flex-direction: column;
             }
             .second{
-                flex: none;
+                position: relative;
             }
             .mainThing{
                 flex-direction: row-reverse;
@@ -120,7 +124,7 @@
                 order: 1;
             }
             .second{
-                flex: none;
+                position: relative;
             }
             .mainThing{
                 display: none;
@@ -164,12 +168,12 @@
                 <p>Lorem ipsum, dolor sit amet.</p>
             </div>
             <div class="thing">
-                <i class="fa-regular fa-id-card" style="color: #26e600;"></i>
+                <i class="fa-solid fa-bars-progress" style="color: #ff0000;"></i>
                 <h2>Development</h2>
                 <p>Lorem ipsum, euismod iaculis.</p>
             </div>
             <div class="thing">
-                <i class="fa-solid fa-bars-progress" style="color: #ff0000;"></i>
+                <i class="fa-regular fa-id-card" style="color: #26e600;"></i>
                 <h2>Support</h2>
                 <p>Lorem ipsum bibendum eros.</p>
             </div>
