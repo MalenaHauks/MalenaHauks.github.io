@@ -23,7 +23,6 @@
             margin: 5px;
         }
         .two{
-            justify-content: flex-end;
             margin: 5px;
         }
         .second{
@@ -102,7 +101,10 @@
         }
         @media screen and (max-width:750px){
             .intro{
-                flex-direction: column-reverse;
+                flex-direction: column;
+            }
+            .one{
+                align-self: flex-end;
             }
             .mainThing{
                 display: none;
