@@ -4,8 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div{
+            padding: 1em;
+            background-color: lightgrey;
+        }
+        .intro{
+            display: flex;
+            text-transform: uppercase;
+        }
+        .buttons{
+            box-shadow: 3px 3px rgb(0, 255, 0);
+        }
+        main{
+            box-shadow: 3px 3px green;
+        }
+        .pic{
+            background-image: url(pic1.jpg);
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="intro">
+            <div class="buttons">Home</div>
+            <div class="buttons">About</div>
+            <div class="buttons">Services</div>
+            <div class="buttons">Contact</div>
+        </div>
+        <div class="main">
+            <div class="mainThing">
+                <div class="pic"></div>
+                <div class="besidePic"></div>
+            </div>
+            <div class="thing"><h2>Anlytics</h2>
+                <p>Lorem ipsum adipiscing elit.</p>
+            </div>
+            <div class="thing"><h2>Marketing</h2>
+                <p>Lorem ipsum, dolor sit amet.</p>
+            </div>
+            <div class="thing"><h2>Development</h2>
+                <p>Lorem ipsum, euismod iaculis.</p>
+            </div>
+            <div class="thing"><h2>Support</h2>
+                <p>Lorem ipsum bibendum eros.</p>
+            </div>
+        </div> 
+        <div class="form">
+            <form>
+            <legend>Gender</legend>
+                <label for="Gender">Male</label>
+                <input type="radio" class="b" name="Gender">
+                <label for="Gender">Female</label>
+                <input type="radio" class="b" name="Gender">
+            </form>
+            <form>
+            <legend>Programming Skill</legend>
+                <label for="skill">Java</label>
+                <input type="checkbox" class="b" name="skill">
+                <label for="skill">C++</label>
+                <input type="checkbox" class="b" name="skill">
+                <label for="skill">C#</label>
+                <input type="checkbox" class="b" name="skill">
+            </form>
+        </div>
+    </div>        
 </body>
 </html>
