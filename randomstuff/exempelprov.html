@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div{
+        .wrapper > div{
             padding: 1em;
             background-color: lightgrey;
         }
@@ -16,26 +16,39 @@
         .buttons{
             box-shadow: 3px 3px rgb(0, 255, 0);
         }
+        .two{
+            justify-content: flex-end;
+            margin: 1em;
+        }
         main{
+            display: flex;
+            flex-direction: row;
             box-shadow: 3px 3px green;
         }
         .pic{
             background-image: url(pic1.jpg);
+        }
+        .mainThing{
+            flex: 90%;
         }
     </style>
 </head>
 <body>
     <div class="wrapper">
         <div class="intro">
-            <div class="buttons">Home</div>
-            <div class="buttons">About</div>
-            <div class="buttons">Services</div>
-            <div class="buttons">Contact</div>
+            <div class="buttons one">Home</div>
+            <div class="buttons two">About</div>
+            <div class="buttons two">Services</div>
+            <div class="buttons two">Contact</div>
         </div>
         <div class="main">
             <div class="mainThing">
                 <div class="pic"></div>
-                <div class="besidePic"></div>
+                <div class="besidePic">
+                    <h1>Your Business On the Web</h1>
+                    <p>Integer in magna lobortis, gravida quam quis, tempus diam.</p>
+                    <input type="button" value="Read more">
+                </div>
             </div>
             <div class="thing"><h2>Anlytics</h2>
                 <p>Lorem ipsum adipiscing elit.</p>
