@@ -7,6 +7,8 @@
     <link rel="icon" type="image/x-icon" href="ukFavicon.ico">
     <script src="https://kit.fontawesome.com/eb3d58a5e7.js" crossorigin="anonymous"></script>
     <script>
+        var home = document.getElementById("home");
+        var other = document.getElementById("other");
         function read(){
             other.style.border = "4px solid aqua";
             home.style.border = "4px solid yellow";
@@ -21,11 +23,8 @@
             text-transform: uppercase;
             flex: 95%;
         }
-        .one{
-            order: 1;
-        }
         .second{
-            order: 0;
+            order: -1;
         }
         .buttons{
             box-shadow: 5px 5px rgb(0, 255, 0);
