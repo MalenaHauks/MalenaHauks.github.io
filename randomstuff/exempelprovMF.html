@@ -8,7 +8,8 @@
     <script src="https://kit.fontawesome.com/eb3d58a5e7.js" crossorigin="anonymous"></script>
     <script>
         function read(){
-            a.style.border = "4px solid aqua";
+            other.style.border = "4px solid aqua";
+            home.style.border = "4px solid yellow";
         }
     </script>
     <style>
@@ -20,6 +21,7 @@
             display: flex;
             text-transform: uppercase;
             flex: 95%;
+            flex-direction: column;
         }
         .buttons{
             box-shadow: 5px 5px rgb(0, 255, 0);
@@ -134,11 +136,11 @@
 <body>
     <div class="wrapper">
         <div class="intro">
-            <a class="buttons one">Home</a>
+            <a id="home" class="buttons one">Home</a>
             <div class="second">
-            <a class="buttons two">About</a>
-            <a class="buttons two">Services</a>
-            <a class="buttons two">Contact</a>
+            <a id="other" class="buttons two">About</a>
+            <a id="other" class="buttons two">Services</a>
+            <a id="other" class="buttons two">Contact</a>
             </div>
         </div>
         <div class="mainThing">
