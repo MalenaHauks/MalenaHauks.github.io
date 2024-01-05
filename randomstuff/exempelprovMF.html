@@ -65,9 +65,6 @@
             display: none;
         }
         @media screen and (max-width:1100px) and (min-width:750px){
-            .one{
-                order: 0;
-            }
             .mainThing{
                 display: flex;
                 flex-direction: row-reverse;
@@ -90,9 +87,6 @@
             }
         }
         @media screen and (min-width:1100px){
-            .one{
-                order: 0;
-            }
             .buttons{
                 flex-direction: row;
             }
@@ -153,12 +147,12 @@
 <body>
     <div class="wrapper">
         <div class="intro">
-            <a id="home" class="buttons one">Home</a>
             <div class="second">
             <a id="other" class="buttons two">About</a>
             <a id="other" class="buttons two">Services</a>
             <a id="other" class="buttons two">Contact</a>
             </div>
+        <a id="home" class="buttons one">Home</a>
         </div>
         <div class="mainThing">
             <img src="pic1.jpg">
