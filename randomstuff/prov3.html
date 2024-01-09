@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Business (mobile first)</title>
+    <link rel="icon" type="image/x-icon" href="ukFavicon.ico">
+    <script src="https://kit.fontawesome.com/eb3d58a5e7.js" crossorigin="anonymous"></script>
+    <script>
+        function func(){
+            document.getElementById("home").style.backgroundColor = "yellow";
+            document.getElementById("other").style.backgroundColor = "cyan";
+        }
+    </script>
+    <style>
+        body{
+            background-color: rgb(0, 26, 255);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .intro{
+            text-transform: uppercase;
+            flex: 99%;
+        }
+        .buttons{
+            box-shadow: 5px 5px rgb(0, 255, 0);
+            background-color: lightgrey;
+            padding: 12px 40px;
+            margin: 10px 5px;
+            display: flex;
+            flex-direction: column;
+        }
+        .mainThing{
+            display: none;
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+            flex: 1 1 auto;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .thing{
+            background-color: lightgrey;
+            box-shadow: 5px 5px red;
+            text-align: center;
+            flex: 20%;
+            margin: 5px;
+        }
+        i{
+            margin: 10px;
+            font-size: large;
+        }
+        h2{
+            margin: 1px;
+        }
+        .myTwoForms{
+            display: none;
+        }
+        @media screen and (max-width:1100px) and (min-width:750px){
+            .one{
+                order: 1;
+            }
+            .second{
+                order: 2;
+            }
+            .intro{
+                display: flex;
+                flex-direction: column;
+            }
+            .buttons{
+                flex-direction: column;
+            }
+            .mainThing{
+                display: flex;
+                flex-direction: row-reverse;
+                background-color: lightgrey;
+                box-shadow: 5px 5px rgb(0, 167, 0);
+                flex: 90%;
+                margin: 5px;
+            }
+            .someText{
+                margin-left: 3vw;
+            }
+            .readMore{
+                color: white;
+                background-color: rgb(44, 44, 44);
+                border-radius: 20px;
+                padding: 9px;
+            }
+            .myTwoForms{
+                display: none;
+            }
+        }
+        @media screen and (min-width:1100px){
+            .one{
+                order: 1;
+            }
+            .second{
+                order: 2;
+                display: flex;
+                flex-direction: row;
+                margin: auto;
+            }
+            .intro{
+                display: flex;
+                flex-direction: row;
+            }
+            .buttons{
+                display: flex;
+                flex-direction: row;
+            }
+            .mainThing{
+                display: flex;
+                flex-direction: row;
+                background-color: lightgrey;
+                box-shadow: 5px 5px rgb(0, 167, 0);
+                flex: 90%;
+                margin: 5px;
+            }
+            .someText{
+                margin-left: 3vw;
+            }
+            .readMore{
+                color: white;
+                background-color: rgb(44, 44, 44);
+                border-radius: 20px;
+                padding: 9px;
+            }
+            .myTwoForms{
+                display: flex;
+                flex: 90%;
+                justify-content: center;
+                flex-direction: row;
+            }
+            .form-b{
+                display: inline;
+                color: rgb(0, 0, 255);
+                background-color: lightgrey;
+                width: 180px;
+                padding: 20px;
+                margin: 10px;
+                float: left;
+                height: 250px;
+            }
+            fieldset{
+                padding: 15px;
+                border: 1px solid grey;
+                width: 160px;
+            }
+            legend{
+                background-color: rgb(166, 238, 178);
+                color: rgb(129, 13, 224);
+                width: 90px;
+            }
+            p{
+                display: block;
+                margin: 10px;
+            }
+            .send{
+                display: flex;
+                align-self: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="intro">
+            <div class="second" id="other">
+                <a class="buttons sec">About</a>
+                <a class="buttons sec">Services</a>
+                <a class="buttons sec">Contact</a>
+            </div>
+            <div class="one" id="home">
+                <a class="buttons fir">Home</a>
+                <a class="buttons fir">News</a>
+            </div>
+        </div>
+        <div class="mainThing">
+            <img src="pic1.jpg" id="thePic" onclick="func()">
+            <div class="someText">
+                <h1>Your Business On the Web</h1>
+                <p>Integer in magna lobortis, gravida quam quis, tempus diam.</p>
+                <input type="button" value="Read More" class="readMore">
+            </div>
+        </div>
+        <div class="main">
+            <div class="thing">
+                <i class="fa-solid fa-chart-column fa-xl" style="color: #0050db;"></i>
+                <h2>Anlytics</h2>
+                <p>Lorem ipsum adipiscing elit.</p>
+            </div>
+            <div class="thing">
+                <i class="fa-solid fa-bullhorn fa-xl" style="color: #333333;"></i>
+                <h2>Marketing</h2>
+                <p>Lorem ipsum, dolor sit amet.</p>
+            </div>
+            <div class="thing">
+                <i class="fa-solid fa-bars-progress fa-xl" style="color: #ff0000;"></i>
+                <h2>Development</h2>
+                <p>Lorem ipsum, euismod iaculis.</p>
+            </div>
+            <div class="thing">
+                <i class="fa-regular fa-id-card fa-xl" style="color: #26e600;"></i>
+                <h2>Support</h2>
+                <p>Lorem ipsum bibendum eros.</p>
+            </div>
+        </div> 
+        <div class="myTwoForms">
+        <div class="form-b">
+            <form>
+                <fieldset>
+                <legend>Your name</legend>
+                <p>
+                    <label for="firstName">First name*</label>
+                    <input type="text" id="firstName">
+                </p>
+                <p>
+                    <label for="lastName">Last name*</label>
+                    <input type="text" id="lastName">
+                </p>
+                </fieldset>
+            </form>
+            <form>
+                <fieldset>
+                    <legend>Nationality</legend>
+                    <p>
+                        <label for="nationality">Choose a nationality</label>
+                        <select name="NED" id="nationality">
+                            <option>SVE</option>
+                        </select>
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+        <div class="form-b">
+            <form>
+                <fieldset>
+                <legend>Skills</legend>
+                <p>
+                    <label for="java">Java</label>
+                    <input type="checkbox" class="b" id="java">
+                </p>
+                <p>
+                    <label for="c++">C++</label>
+                    <input type="checkbox" class="b" id="c++">
+                </p>
+                <p>
+                    <label for="c#">C#</label>
+                    <input type="checkbox" class="b" id="c#">
+                </p>
+                </fieldset>
+                <input type="submit" value="Send" class="send">
+            </form>
+        </div>
+        </div>
+    </div>        
+</body>
+</html>
