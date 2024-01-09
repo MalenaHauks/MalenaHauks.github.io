@@ -7,11 +7,14 @@
     <link rel="icon" type="image/x-icon" href="ukFavicon.ico">
     <script src="https://kit.fontawesome.com/eb3d58a5e7.js" crossorigin="anonymous"></script>
     <script>
-        var home = document.getElementById("home");
-        var other = document.getElementById("other");
         function read(){
-            other.style.border = "4px solid aqua";
-            home.style.border = "4px solid yellow";
+            var childImages = document.getElementById("thumbnails").children;
+            var i;
+                for ( i = 0; i < childImages.length; i++ ) {
+                    childImages[i].style.border = '';
+                }
+            document.getElementById(other).style.border="4px solid aqua";
+            document.getElementById(home).style.border="4px solid yellow";
         }
     </script>
     <style>
@@ -176,11 +179,11 @@
         <a id="home" class="buttons one">Home</a>
         </div>
         <div class="mainThing">
-            <img src="pic1.jpg">
+            <img src="pic1.jpg" id="thePic" onclick="read()">
             <div class="someText">
                 <h1>Your Business On the Web</h1>
                 <p>Integer in magna lobortis, gravida quam quis, tempus diam.</p>
-                <input type="button" value="Read More" class="readMore" onclick="read">
+                <input type="button" value="Read More" class="readMore">
             </div>
         </div>
         <div class="main">
