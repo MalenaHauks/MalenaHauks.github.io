@@ -8,8 +8,8 @@
     <script src="https://kit.fontawesome.com/eb3d58a5e7.js" crossorigin="anonymous"></script>
     <script>
         function func(){
-            document.getElementById("home").style.backgroundColor = "yellow";
-            document.getElementById("other").style.backgroundColor = "cyan";
+            document.getElementById("Business").style.backgroundColor = "lightgreen";
+            document.getElementById("Lorem").style.backgroundColor = "lightblue";
         }
     </script>
     <style>
@@ -45,6 +45,9 @@
             text-align: center;
             flex: 20%;
             margin: 5px;
+        }
+        .thing:hover{
+            background-color: yellow;
         }
         i{
             margin: 10px;
@@ -181,8 +184,8 @@
         <div class="mainThing">
             <img src="pic1.jpg" id="thePic" onclick="func()">
             <div class="someText">
-                <h1>Your Business On the Web</h1>
-                <p>Integer in magna lobortis, gravida quam quis, tempus diam.</p>
+                <h1 id="Business">Your Business On the Web</h1>
+                <p id="Lorem">Integer in magna lobortis, gravida quam quis, tempus diam.</p>
                 <input type="button" value="Read More" class="readMore">
             </div>
         </div>
